@@ -12,6 +12,7 @@
   min-height: 600px;
   max-height: 756px;
   background-color: #f2f2f2;
+  display: flex;
   /* выше установили ограничения для секции */
 }
 
@@ -21,11 +22,21 @@
   top: 30px;
 }
 
+/* .header__title {
+  width: 730px;
+  flex-direction: column;
+  margin-left: 64px;
+  align-items: center;
+} */
+
 .header__subtitle {
   width: 388px;
   position: absolute;
   left: 64px;
   bottom: 30px;
+  line-height: 25px;
+  font-size: 18px;
+  font-style: normal;
 }
 
 /* стили для главной иллюстрации */
