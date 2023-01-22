@@ -18,6 +18,7 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
+  position: relative;
 }
 
 .logo_place_header{
@@ -29,22 +30,20 @@
 .header__title {
   width: 730px;
   margin-left: 64px;
-}
-
-.main-title {
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
 }
 
 .header__subtitle {
+  margin: 0;
   width: 388px;
   position: absolute;
   left: 64px;
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
-  font-style: normal;
+  font-weight: normal;
 }
 
 /* стили для главной иллюстрации */
@@ -64,6 +63,11 @@
   position: absolute;
   top: 64px;
   right: 0px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 /* description */
@@ -137,6 +141,7 @@
 }
 
 .table-container {
+  list-style: none;
   margin: 0 auto;
   width: 1100px;
   display: flex;
@@ -219,6 +224,7 @@
 
 .table_theme_dark {
   z-index: 1;
+  list-style: none;
 }
 
 .kaufman-triangle {
@@ -227,3 +233,75 @@
   top: 0;
   z-index: 0;
 }
+
+/* footer */
+.footer_text_color {
+  color: #f2f2f2;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+  min-height: 350px;
+  background-color: #1f1f1f;
+  display: flex;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  padding: 18px 0;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column-heading, .footer__social_heading {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+/* обнуление стилей списков */
+.footer__column-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__column-link {
+  display: block;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+/* .footer__social-icon_1 {
+  background-image: url(../images/youtube-icon.svg);
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: left;
+} */
+
