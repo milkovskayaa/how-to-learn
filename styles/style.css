@@ -2,10 +2,14 @@
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
-
 }
+
+/* выравнивание по центру для текстовых блоков */
+.text-center {
+  text-align: center;
+}
+
 /* header */
 .header {
   height: 100vh;
@@ -67,10 +71,11 @@
   margin-top: 100px;
 }
 
-
 .two-columns {
   display: flex;
-  justify-content: space-between;
+  width: 80%;
+  min-width: 784px;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -102,24 +107,39 @@
 
 /* digits */
 
+/* .digits {
+ margin: 0 auto;
+} */
+.page__digits {
+  margin-bottom: 100px;
+}
 
 .digits-title {
+  width: 60%;
+  margin: 0 auto;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
+
+
 .section-subtitle {
+  width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0 auto;
 }
 
 .table {
+  padding-top: 60px;
   width: 250px;
 }
 
 .table-container {
+  margin: 0 auto;
   width: 1100px;
   display: flex;
   flex-wrap: wrap;
@@ -137,6 +157,44 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+
+/* feynman*/
+.feynman {
+  min-height: 890px;
+  background-color: #f2f2f2;
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  position: relative;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  width: 684px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  padding-top: 70px;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
