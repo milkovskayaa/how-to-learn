@@ -114,7 +114,7 @@
   margin-bottom: 100px;
 }
 
-.digits-title {
+.section-title {
   width: 60%;
   margin: 0 auto;
   line-height: 1.15;
@@ -122,8 +122,6 @@
   font-weight: 600;
   padding-bottom: 20px;
 }
-
-
 
 .section-subtitle {
   width: 60%;
@@ -196,17 +194,36 @@
   color: #2f80ed;
 }
 
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-.header__square-pic {
-  height: 568px;
-  width: 568px;
+/* секция kaufman */
+.kaufman {
+  position: relative;
+  overflow: hidden;
+  background-color: #1f1f1f;
+  padding-bottom: 90px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.section-title_theme_dark {
+  padding-top: 90px;
+}
+
+.section-title_theme_dark, .section-subtitle_theme_dark {
+  color: #f2f2f2;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.table_theme_dark {
+  z-index: 1;
+}
+
+.kaufman-triangle {
+  position: absolute;
+  right: -250px;
+  top: 0;
+  z-index: 0;
 }
