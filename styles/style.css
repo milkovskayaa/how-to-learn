@@ -4,6 +4,11 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+/* общие стили для ссылок проекта */
+.project_link {
+  text-decoration: none;
+  color: #2f80ed;
+}
 
 /* выравнивание по центру для текстовых блоков */
 .text-center {
@@ -65,42 +70,37 @@
   right: 0px;
 }
 
-.header__link {
-  text-decoration: none;
-  color: #2f80ed;
-}
-
 /* description */
 .page__description, .page__digits {
   margin-top: 100px;
 }
 
 .two-columns {
-  display: flex;
   width: 80%;
-  min-width: 784px;
+  display: flex;
+  justify-content: space-between;
   margin: 0 auto;
 }
 
 .two-columns__brief {
-  width: 175px;
+  min-width: 175px;
   font-style: normal;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
-  margin-bottom: 30px;
-}
-
-.two-columns-title {
-  line-height: 1.2;
-  font-size: 18px;
-  font-style: normal;
+  min-width: 784px;
 }
 
 .two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
-  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 30px;
 }
 
 .two-columns__span-accent {
@@ -111,9 +111,6 @@
 
 /* digits */
 
-/* .digits {
- margin: 0 auto;
-} */
 .page__digits {
   margin-bottom: 100px;
 }
@@ -195,8 +192,6 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
 }
 
 /* секция kaufman */
@@ -297,11 +292,4 @@
   font-size: 18px;
   font-weight: normal;
 }
-
-/* .footer__social-icon_1 {
-  background-image: url(../images/youtube-icon.svg);
-  background-repeat: no-repeat;
-  background-size: 16px 16px;
-  background-position: left;
-} */
 
