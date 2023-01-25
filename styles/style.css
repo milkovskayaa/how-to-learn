@@ -222,12 +222,13 @@
 
 .section-title_theme_dark {
   padding-top: 90px;
-  position: relative;
-  z-index: 1;
+
 }
 
 .section-title_theme_dark, .section-subtitle_theme_dark {
   color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
 .table__cell_theme_dark {
