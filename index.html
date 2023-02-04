@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-  <ul class="page">
+  <div class="page">
 <!-- Header -->
     <header class="header">
       <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Логотип">
@@ -21,7 +21,7 @@
     </header>
 <!-- Content -->
     <main class="content">
-<!-- Description -->
+      <!-- Description -->
       <section class="description page__description">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -39,7 +39,7 @@
           </div>
         </article>
       </section>
-<!-- Techniques -->
+      <!-- Techniques -->
       <section class="techniques page__techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
@@ -75,7 +75,7 @@
           </li>
         </ul>
       </section>
-<!-- Video -->
+      <!-- Video -->
       <section class="video page__video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
@@ -88,7 +88,7 @@
                 gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </section>
-<!-- Oakley -->
+      <!-- Oakley -->
       <section class="oakley page__oakley">
         <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
@@ -102,13 +102,13 @@
           </div>
         </article>
       </section>
-<!-- Feynman -->
+      <!-- Feynman -->
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
         <a class="feynman__link" href="#">Подробнее &#8594;</a>
       </section>
-<!-- Digits -->
+      <!-- Digits -->
       <section class="digits page__digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
@@ -149,15 +149,29 @@
             </li>
        </ul>
       </section>
-<!-- Khan -->
+      <!-- Khan -->
       <section class="khan">
+        <div class="khan__container">
+          <h2 class="khan__author">Салман Хан</h2>
+          <h3 class="khan__title">Весь мир — школа</h3>
+          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения
+             миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем,
+              кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания,
+               которые приносят успех в школе, карьере и жизни.
+          </p>
+          <h4 class="khan__quote-author">Джордж Лукас</h4>
+          <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+          <div class="khan__book-container">
+            <img src="./images/khan-book.jpg" alt="Обложка книги Весь мир - школа" class="khan__book-pic">
+            <a href="#" class="khan__buy-link">Купить книгу &#8594;</a>
+          </div>
+        </div>
 
       </section>
-<!-- Kaufman -->
+      <!-- Kaufman -->
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
-          <!-- карточки -->
             <ul class="table table_theme_dark">
               <li class="table__cell table__cell_theme_dark">
                 <h3 class="table__heading table__heading_theme_dark">1</h3>
@@ -202,11 +216,27 @@
           </ul>
           <div class="kaufman__triangle"></div>
       </section>
-<!-- Resourses -->
-      <section class="resourses">
-
+      <!-- Resources -->
+      <section class="resources page__resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <div class="resources__logo-zone">
+          <a href="#" class="resources__link">
+            <img src="./images/logo/resources-arzamas.svg" alt="Логотип ресурса Арзамас" class="resources__logo">
+          </a>
+          <a href="#" class="resources__link">
+            <img src="./images/logo/resources-n1.svg" alt="Логотип ресурса Н+1" class="resources__logo">
+          </a>
+          <a href="#" class="resources__link">
+            <img src="./images/logo/resources-strelka.svg" alt="Логотип ресурса Стрелка" class="resources__logo">
+          </a>
+          <a href="#" class="resources__link">
+            <img src="./images/logo/resources-polka.svg" alt="Логотип ресурса Полка" class="resources__logo">
+          </a>
+        </div>
       </section>
     </main>
+
 <!-- Footer -->
     <footer class="footer page__footer">
 <!-- контейнер для блоков -->
