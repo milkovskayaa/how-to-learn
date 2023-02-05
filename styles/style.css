@@ -85,17 +85,8 @@
   animation: rotation 20s linear infinite;
 }
 
-.link-transform {
-  opacity: 1;
-  transition: opacity 1s linear;
-}
-
-.link-transform:hover {
-  opacity: .6;
-}
-
 /* Description */
-.page__description, .page__digits, .page__techniques, .page__video {
+.page__description, .page__digits, .page__techniques{
   margin-top: 100px;
 }
 
@@ -262,7 +253,6 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: normal;
-
 }
 
 .khan__book-container {
@@ -403,7 +393,6 @@
 
 .section-title_theme_dark {
   padding-top: 90px;
-
 }
 
 .section-title_theme_dark, .section-subtitle_theme_dark {

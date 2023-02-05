@@ -1,0 +1,11 @@
+.two-columns__paragraph {
+  margin: 0;
+}
+
+.two-columns__paragraph:nth-child(1) {
+  padding-bottom: 30px;
+}
+
+.two-columns__paragraph:nth-child(3) {
+  padding-top: 30px;
+}
