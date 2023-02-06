@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__description/page__description.css);
 @import url(../blocks/page/__digits/page__digits.css);
